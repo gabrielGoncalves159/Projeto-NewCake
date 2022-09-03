@@ -4,15 +4,8 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: Aguafina Script;
-    src: url(../front-projeto/aguafina-script/AguafinaScript-Regular.ttf);
- }
-
 .page-login{
     display: flex;
-    padding: 0;
-    margin: 0;
 }
 
 #campo-login {
@@ -23,19 +16,11 @@
     width: 100%;
     max-width: 400px;
     height: 610px;
-    background: #418CA4; 
-}
-
-.title-login {
-    font-family: 'AlfaSlaOne-Regular';
-    font-size: 40px;
-    color: #FFFFFF;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    background: #477c8d; 
 }
 
 .input-login{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     width: 250px;
     height: 30px;
     background: #FFFFFF;
@@ -64,7 +49,6 @@
     width: 100%;
     max-width: 900px;
     min-height: 90vh;
-    background: #FBE8DD;
 }
 
 .imagem-login{
@@ -75,7 +59,7 @@
 .logo-login {
     align-items: flex-start;
     width: 200px;
-    height: 140px;
+    height: 125px;
 }
 
 .esquecer-senha {
